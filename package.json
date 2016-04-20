@@ -1,6 +1,6 @@
 {
   "name": "os-random-tmpdir",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Return randomized hashed path under the temp dir",
   "license": "MIT",
   "repository": "ragingwind/os-random-tmpdir",
