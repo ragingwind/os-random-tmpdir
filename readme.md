@@ -15,8 +15,8 @@ $ npm install --save os-random-tmpdir
 ```js
 const randomTmpdir = require('os-random-tmpdir');
 
-randomTmpdir('prefix-');
-//=> /var/folders/wf/bjnghq1d7k15dxmw2sw4h4yh0000gp/T/prefix-da4f8ecb4d66f2f50ae04e25dfcbcf03
+randomTmpdir('PREFIX');
+//=> /var/folders/wf/bjnghq1d7k15dxmw2sw4h4yh0000gp/T/PREFIX/da4f8ecb4d66f2f50ae04e25dfcbcf03
 ```
 
 
@@ -28,7 +28,7 @@ randomTmpdir('prefix-');
 
 Type: `string`
 
-return path with prefix
+return path with prefix subpath
 
 ## License
 
